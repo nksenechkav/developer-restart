@@ -7,4 +7,9 @@ if (age >= 18) {
 
 //Task//
 
-п
+const temperature = 15; 
+if (temperature > 20) { 
+    console.log ("It is warm today") 
+} else { 
+    console.log ("It is cold today") 
+}
