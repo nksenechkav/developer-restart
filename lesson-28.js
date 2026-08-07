@@ -27,5 +27,3 @@ const product = {
 const total = product.getTotal();
 
 console.log(total);
-
-//Task3g//
