@@ -47,3 +47,22 @@ console.log(c);
 console.log(d);
 console.log(e);
 console.log(f);
+
+//Task4//
+
+const settings = {
+    volume: 0,
+    username: "",
+    notifications: false,
+    theme: null
+};
+
+const volume = settings.volume ?? 50;
+const username = settings.username || "Guest";
+const notifications = settings.notifications ?? true;
+const theme = settings.theme ?? "light";
+
+console.log(volume);
+console.log(username);
+console.log(notifications);
+console.log(theme);
